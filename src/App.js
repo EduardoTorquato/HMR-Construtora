@@ -5,7 +5,7 @@ import Routes from './routes';
 import history from './services/history';
 
 import ScrollToTop from '~/components/ScrollToTop';
-import Menu from '~/components/Menu';
+import Topo from '~/components/Topo';
 import Footer from '~/components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,12 +16,14 @@ function App() {
   return (
     <>
       <Router
-        basename="/httpdocs/cliente/site/bora-brasil-motoristas"
+        basename="/httpdocs/cliente/site/hmr-construtora"
         history={history}
       >
         <ScrollToTop>
           <GlobalStyle />
-          <Menu />
+          
+          <Topo />
+          
           <Routes />
           <Footer />
         </ScrollToTop>

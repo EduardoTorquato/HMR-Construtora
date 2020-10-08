@@ -1,18 +1,27 @@
 import styled from 'styled-components';
 
-import Banner from '~/assets/banner.png';
 
 export const Container = styled.div`
-  .banner {
-    background-size: cover;
-    background-image: url(${Banner});
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding: 25% 0;
-    height: 650px;
+  max-width: 720px;
+  margin: auto;
+
+
+  .fundo {
+    background: repeating-linear-gradient(
+      64deg,
+      #99999a,
+      #99999a 14px,
+      #aaa,
+      #aaa 15px
+    );
   }
-  .btn-details {
-    background-color: gray;
-    color: #fff !important;
+
+  .cliente {
+    font-size: 150%;
+    text-decoration: none;
+    color: #3f4096;
   }
+
+  
+
 `;

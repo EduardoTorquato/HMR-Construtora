@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  .bg-footer {
-    background-color: #333333;
+  p {
+    background-color: #3f4393;
+    color: #fff;
   }
-  a {
-    color: #fff !important;
-    text-decoration: none !important;
+
+  hr {
+    border: 1px solid #d94443;
   }
+
+
 `;

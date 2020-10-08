@@ -1,0 +1,23 @@
+const img = require('./residencia-1.jpg');
+const img2 = require('./residencia-2.jpg');
+const img3 = require('./residencia-3.jpg');
+const img4 = require('./residencia-4.jpg');
+const img5 = require('./residencia-5.jpg');
+const img6 = require('./residencia-6.jpg');
+const img7 = require('./residencia-7.jpg');
+const img8 = require('./residencia-8.jpg');
+const img9 = require('./residencia-9.jpg');
+const img10 = require('./residencia-10.jpg');
+const img11 = require('./residencia-11.jpg');
+const img12 = require('./residencia-12.jpg');
+const img13 = require('./residencia-13.jpg');
+const img14 = require('./residencia-14.jpg');
+const img15 = require('./residencia-15.jpg');
+const img16 = require('./residencia-16.jpg');
+const img17 = require('./residencia-17.jpg');
+const img18 = require('./residencia-18.jpg');
+const img19 = require('./residencia-19.jpg');
+const img20 = require('./residencia-20.jpg');
+const img21 = require('./residencia-21.jpg');
+
+export const imgs = [img, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21];
